@@ -1,0 +1,13 @@
+# Explicit audited publication allowlist
+*
+!/LICENSES/
+!/.gitignore
+!/LICENSES/Harmony-LICENSE.txt
+!/LICENSES/Mono.Cecil-LICENSE.txt
+!/LICENSES/THIRD-PARTY-NOTICES.txt
+!/PRIVACY-AUDIT.ru.md
+!/PUBLIC-FILES.md
+!/README.md
+!/README.ru.md
+!/TEST-PLAN.ru.md
+!/release-public.xml

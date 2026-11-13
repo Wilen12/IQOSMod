@@ -1,0 +1,22 @@
+This distribution includes modified dependencies under their original MIT licenses.
+The complete license texts are retained in Harmony-LICENSE.txt and Mono.Cecil-LICENSE.txt.
+
+0Harmony 2.3.3.0:
+Only the CodeView PDB pathname bytes have been cleared from a copy of the original
+unsigned assembly. Method IL, types and embedded runtime resources are unchanged.
+This is a privacy-modified binary, not a byte-identical upstream distribution.
+
+Mono.Cecil 0.11.1.0:
+A privacy-modified, explicitly unsigned metadata-library build is included.
+Debug/symbol metadata and the original strong-name identity have been removed.
+It is not represented as carrying a valid upstream strong-name signature.
+All method IL was compared to the source binary and is unchanged. IQOSBootstrap
+was compiled against this unsigned identity. Native game loading was tested.
+
+The release-manifest RSA public key and cryptographic signature verification are
+independent of .NET strong names and are unchanged. No Windows security policy,
+certificate validation or anti-cheat component was modified.
+
+Public upstream projects:
+https://github.com/pardeike/Harmony
+https://github.com/jbevain/cecil
